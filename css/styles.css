@@ -850,7 +850,6 @@ img {
 .footer-form-block {
   width: 100%;
 }
-}
 
 .footer-form {
   display: flex;
@@ -912,6 +911,70 @@ img {
   fill: var(--main-color-text);
   margin-left: 16px;
 }
+
+/* my code */
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    max-width: 584px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 24px;
+    align-items: flex-start;
+  }
+
+  .footer-form-block {
+    width: auto;
+  }
+
+  .footer-form {
+    flex-direction: row;
+  }
+  .footer-left-column {
+    align-items: flex-start;
+  }
+
+  .footer-social {
+    text-align: left;
+  }
+
+  .footer-input {
+    width: 264px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    max-width: 1158px;
+    gap: 0;
+  }
+
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-left-column {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-middle {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+
+  .footer-social-link:hover,
+  .footer-social-link:focus {
+    background-color: var(--footer-social);
+  }
+
+  .footer-btn:hover,
+  .footer-btn.focus {
+    background-color: var(--link-active);
+  }
+}
+
 /* .footer {
   background-color: var(--additional-color-text);
   padding: 100px 0;
@@ -998,11 +1061,6 @@ img {
   align-items: baseline;
 }
 
-.main-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
-
 .footer-form {
   display: flex;
   gap: 24px;
@@ -1060,6 +1118,11 @@ img {
   fill: var(--main-color-text);
   margin-left: 16px;
 } */
+
+.main-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .portfolio-filter {
   font-weight: 500;
