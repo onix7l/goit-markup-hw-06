@@ -1014,14 +1014,14 @@ img {
   flex-wrap: wrap;
   gap: 16px 24px;
   margin-bottom: 48px;
-  max-width: 400px;
+  /* max-width: 400px; */
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .portfolio-filter {
     max-width: 400px;
   }
-} */
+}
 
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
@@ -1050,7 +1050,7 @@ img {
     flex-wrap: nowrap;
     gap: 24px;
     margin-bottom: 64px;
-    max-width: none;
+    /* max-width: none; */
   }
 }
 
